@@ -1,0 +1,7 @@
+GET http://localhost:4004/odata/v4/CarwashService
+
+###Read service metadata
+GET http://localhost:4004/odata/v4/CarwashService/$metadata
+
+###Get ANPR records
+GET http://localhost:4004/odata/v4/CarwashService/getMaterial()
